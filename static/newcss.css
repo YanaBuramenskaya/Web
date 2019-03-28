@@ -1,0 +1,166 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20.12.2018, 20:24:34
+    Author     : Пользователь
+*/
+@import "https://fonts.googleapis.com/css?family=Russo+One";
+
+.category-wrap { /* меню */
+  padding: 5px;
+  width: 200px;
+  font-family: Bradley Hand, cursive;
+}
+.trig {
+    color: blue;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.brown {
+    color: brown;
+}
+
+.category-wrap h3 { /* меню.заголовок */
+  font-size: 20px;
+  color: white;
+  margin: 0 0 10px;
+  padding: 0 20px;
+  position: relative;
+}
+.category-wrap h3:after { /* меню.заголовок после*/
+  width: 6px;
+  height: 6px;
+  background: #80C8A0;
+}
+.category-wrap ul { /* меню.строки */
+  list-style: none;
+  margin: 0;
+  padding: 0; 
+}
+.category-wrap li {margin: 12px 0 0 0px;} 
+.category-wrap a {
+  text-decoration: none;
+  display: block;
+  font-size: 30px;
+  color: white;
+  padding: 5px;
+  position: relative;
+  transition: .3s linear;
+}
+.category-wrap a:after {
+  content:"\27A4";
+  right: 20px;
+  font-family: FontAwesome;
+  position: absolute;
+  color: white;
+  transition: .2s linear;
+}
+.category-wrap a:hover {
+  background: #87CEFA; 
+  color: white;
+  font-size: 19px;
+}
+.drop_vert_menu {
+    list-style-type: none; 
+    width: 198px;
+    margin: 0; 
+    padding: 0;
+ }
+ 
+.drop_vert_menu  ul {
+    list-style-type: none; 
+    width: 180px;
+    margin: 0; 
+    padding: 0; 
+}
+.text {
+    color:rgba(200,200,200, 0.0);
+    text-shadow: rgba(250,250,250, 0.9) 0px 0px 2px,
+        rgba(0 ,0 ,0 , 0.2) 0.5px 0.5px 1.9px,
+        rgba(210,210,210, 0.9) -0.5px 0.5px 0.1px,
+        rgba(210,210,210, 0.9) 0.5px -0.5px 0.1px,
+        rgba(210,210,210, 0.9) -0.5px -0.5px 0.1px,
+        rgba(210,210,210, 0.9) 0.5px 0.5px 0.1px;
+    font-size:35px;
+}
+
+.drop_vert_menu > li{
+  position: relative; 
+  background: url(images/vert_css_menu_0.png) no-repeat 0 0; 
+  padding:10px 0px 5px 16px;
+  border-top: 1px solid White;
+}
+
+.drop_vert_menu > li:hover {
+background: url(images/vert_css_menu_1.png) no-repeat 0 0;
+}
+.drop_vert_menu > li > a{
+  font-size:20px;
+  color: White;
+  text-decoration:none;
+}
+
+
+  .drop_vert_menu li ul {
+    position: absolute; 
+    display: none; 
+    top: -5px; 
+    left: 200px; 
+   }
+
+ .drop_vert_menu li:hover ul {
+   display: block; 
+   }
+
+.drop_vert_menu li ul li{
+  text-align:left;
+  padding: 8px 0px 8px 10px;
+}
+
+.drop_vert_menu li ul li:hover {
+
+}
+.drop_vert_menu li ul li:after{
+  background: #87CEFA;
+
+}
+
+.drop_vert_menu li ul li a{
+  border-left: 1px solid White;
+  font-size:18px;
+  color:White;
+  text-decoration:none;
+}
+
+.drop_vert_menu li ul li a:hover{
+  font-size: 17px;
+  color: White;
+  text-decoration:none;
+}
+
+/* вывеска */
+
+h2.funny-title{border-top:5px solid #E0DBDE;border-bottom:5px solid #E0DBDE;font-size:70px;text-align:center;margin-top:40px;margin-bottom:5px;text-transform:uppercase;font-family:'Russo One',sans-serif;font-weight:900;letter-spacing:8px}
+@-webkit-keyframes move-background {
+0%{background-position:-300px 0}
+100%{background-position:300px -300px}
+}
+@-moz-keyframes move-background {
+0%{background-position:-300px 0}
+100%{background-position:300px -300px}
+}
+@keyframes move-background {
+0%{background-position:-300px 0}
+100%{background-position:300px -300px}
+}
+.section-title{-webkit-animation-play-state:running;-moz-animation-play-state:running;animation-play-state:running;color:transparent;background:url(https://obninsksite.ru/assets/theme/images/blog/square.svg) no-repeat #ECE7EA;background-size:cover;-webkit-text-fill-color:transparent;-moz-text-fill-color:transparent;-webkit-background-clip:text;-moz-background-clip:text;background-clip:text;-webkit-animation:move-background 20s infinite linear alternate;-moz-animation:move-background 20s infinite linear alternate;animation:move-background 20s infinite linear alternate}
