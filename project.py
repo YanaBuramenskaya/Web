@@ -17,13 +17,13 @@ def main():
                     crossorigin="anonymous">
             <link rel="stylesheet" href="static/newcss.css" type="text/css">
             <style type="text/css">
-	#calculator * {font-size: 16px;}
-	#calculator table {border: solid 3px silver; border-spacing: 3px; background-color: #EEE; }
-	#calculator table td {border-spacing: 3px;}
-	input.display {width: 166px; text-align: right;}
-	td.buttons {border-top: solid 1px silver;}	
-	input[type= button] {width: 40px; height: 30px;}
-</style>
+                #calculator * {font-size: 16px;}
+                #calculator table {border: solid 3px silver; border-spacing: 3px; background-color: #EEE; }
+                #calculator table td {border-spacing: 3px;}
+                input.display {width: 166px; text-align: right;}
+                td.buttons {border-top: solid 1px silver;}	
+                input[type= button] {width: 40px; height: 30px;}
+            </style>
         </head>
         <body background="static/fon2.jpg">
             <table align = "center" width="100%" height="100%" border="0px" cellspacing="0" cellpadding="0">
@@ -107,13 +107,13 @@ def menelaus():
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
                 <link rel="stylesheet" href="static/newcss.css" type="text/css">
                 <style type="text/css">
-	#calculator * {font-size: 16px;}
-	#calculator table {border: solid 3px silver; border-spacing: 3px; background-color: #EEE; }
-	#calculator table td {border-spacing: 3px;}
-	input.display {width: 166px; text-align: right;}
-	td.buttons {border-top: solid 1px silver;}	
-	input[type= button] {width: 40px; height: 30px;}
-</style>
+                #calculator * {font-size: 16px;}
+                #calculator table {border: solid 3px silver; border-spacing: 3px; background-color: #EEE; }
+                #calculator table td {border-spacing: 3px;}
+                input.display {width: 166px; text-align: right;}
+                td.buttons {border-top: solid 1px silver;}	
+                input[type= button] {width: 40px; height: 30px;}
+            </style>
             </head>
             <body background="static/fon2.jpg">
                 <table align = "center" width="100%" height="100%" border="0px" cellspacing="0" cellpadding="0">
@@ -218,13 +218,13 @@ def cheva():
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <link rel="stylesheet" href="static/newcss.css" type="text/css">
             <style type="text/css">
-	#calculator * {font-size: 16px;}
-	#calculator table {border: solid 3px silver; border-spacing: 3px; background-color: #EEE; }
-	#calculator table td {border-spacing: 3px;}
-	input.display {width: 166px; text-align: right;}
-	td.buttons {border-top: solid 1px silver;}	
-	input[type= button] {width: 40px; height: 30px;}
-</style>
+                #calculator * {font-size: 16px;}
+                #calculator table {border: solid 3px silver; border-spacing: 3px; background-color: #EEE; }
+                #calculator table td {border-spacing: 3px;}
+                input.display {width: 166px; text-align: right;}
+                td.buttons {border-top: solid 1px silver;}	
+                input[type= button] {width: 40px; height: 30px;}
+            </style>
         </head>
         <body background="static/fon2.jpg">
             <table align = "center" width="100%" height="100%" border="0px" cellspacing="0" cellpadding="0">
@@ -336,13 +336,13 @@ def cosines():
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <link rel="stylesheet" href="static/newcss.css" type="text/css">
             <style type="text/css">
-	#calculator * {font-size: 16px;}
-	#calculator table {border: solid 3px silver; border-spacing: 3px; background-color: #EEE; }
-	#calculator table td {border-spacing: 3px;}
-	input.display {width: 166px; text-align: right;}
-	td.buttons {border-top: solid 1px silver;}	
-	input[type= button] {width: 40px; height: 30px;}
-</style>
+                #calculator * {font-size: 16px;}
+                #calculator table {border: solid 3px silver; border-spacing: 3px; background-color: #EEE; }
+                #calculator table td {border-spacing: 3px;}
+                input.display {width: 166px; text-align: right;}
+                td.buttons {border-top: solid 1px silver;}	
+                input[type= button] {width: 40px; height: 30px;}
+            </style>
         </head>
         <body background="static/fon2.jpg">
             <table align = "center" width="100%" height="100%" border="0px" cellspacing="0" cellpadding="0">
@@ -445,14 +445,14 @@ def sines():
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <link rel="stylesheet" href="static/newcss.css" type="text/css">
-            <style type="text/css">
-	#calculator * {font-size: 16px;}
-	#calculator table {border: solid 3px silver; border-spacing: 3px; background-color: #EEE; }
-	#calculator table td {border-spacing: 3px;}
-	input.display {width: 166px; text-align: right;}
-	td.buttons {border-top: solid 1px silver;}	
-	input[type= button] {width: 40px; height: 30px;}
-</style>
+           <style type="text/css">
+                #calculator * {font-size: 16px;}
+                #calculator table {border: solid 3px silver; border-spacing: 3px; background-color: #EEE; }
+                #calculator table td {border-spacing: 3px;}
+                input.display {width: 166px; text-align: right;}
+                td.buttons {border-top: solid 1px silver;}	
+                input[type= button] {width: 40px; height: 30px;}
+            </style>
         </head>
         <body background="static/fon2.jpg">
             <table align = "center" width="100%" height="100%" border="0px" cellspacing="0" cellpadding="0">
@@ -549,13 +549,13 @@ def sines_extended():
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <link rel="stylesheet" href="static/newcss.css" type="text/css">
             <style type="text/css">
-	#calculator * {font-size: 16px;}
-	#calculator table {border: solid 3px silver; border-spacing: 3px; background-color: #EEE; }
-	#calculator table td {border-spacing: 3px;}
-	input.display {width: 166px; text-align: right;}
-	td.buttons {border-top: solid 1px silver;}	
-	input[type= button] {width: 40px; height: 30px;}
-</style>
+                #calculator * {font-size: 16px;}
+                #calculator table {border: solid 3px silver; border-spacing: 3px; background-color: #EEE; }
+                #calculator table td {border-spacing: 3px;}
+                input.display {width: 166px; text-align: right;}
+                td.buttons {border-top: solid 1px silver;}	
+                input[type= button] {width: 40px; height: 30px;}
+            </style>
         </head>
         <body background="static/fon2.jpg">
             <table align = "center" width="100%" height="100%" border="0px" cellspacing="0" cellpadding="0">
