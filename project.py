@@ -558,7 +558,9 @@ def sines():
                             и угол между ними тремя разными способами: </p>
                             <p>S(<span class="trig">△ABC</span>) = 0,5 * <span class="red">a</span> * <span
                             class="green">b</span> * <span class="brown">sin∠C</span>, S(<span class="trig">△ABC</span>)
-                             = 0,5 * <span class="red">a</span> * <span class="brown">c</span> * <span class="green">sin∠B</span>, S(<span class="trig">△ABC</span>) = 0,5 * <span class="green">b</span> * <span class="brown">c</span> * <span class="red">sin∠A</span>;</p>
+                             = 0,5 * <span class="red">a</span> * <span class="brown">c</span> * <span class="green">
+                             sin∠B</span>, S(<span class="trig">△ABC</span>) = 0,5 * <span class="green">b</span> * 
+                             <span class="brown">c</span> * <span class="red">sin∠A</span>;</p>
                             <p>Приравняем правые части равенств:</p>
                             <p>0,5 * <span class="red">a</span> * <span class="green">b</span> * <span class="brown">
                             sin∠C</span> = 0,5 * <span class="red">a</span> * <span class="brown">c</span> * 
